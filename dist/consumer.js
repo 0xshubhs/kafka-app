@@ -9,7 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const client_1 = require("../client");
+const client_1 = require("./client");
 const group = process.argv[2];
 function init() {
     return __awaiter(this, void 0, void 0, function* () {

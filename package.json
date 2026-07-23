@@ -1,7 +1,7 @@
 {
-  "name": "kafka",
+  "name": "kafka-app",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/client.js",
   "license": "MIT",
   "dependencies": {
     "@types/node": "^20.14.9",
@@ -9,6 +9,9 @@
     "typescript": "^5.5.2"
   },
   "scripts": {
-    "dev" : ""
+    "build": "tsc",
+    "admin": "node dist/admin.js",
+    "producer": "node dist/producer.js",
+    "consumer": "node dist/consumer.js"
   }
 }
